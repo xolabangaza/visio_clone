@@ -157,7 +157,7 @@
 .visio{
     background-color: #061c2c;
     width: 22.5rem;
-    height: 12.5rem;
+    height: 12.5rem; 
     
     
 }
@@ -166,12 +166,14 @@
     width: 22.5rem;
     height: 12.5rem;
     margin-left: 1.25rem;
+    
 }
 .visio3{
     background-color: #061c2c;
     width: 22.5rem;
     height: 12.5rem;
     margin-left: 1.25rem;
+    
 }
 span{
     font-family: 'Open Sans', sans-serif;
@@ -279,6 +281,7 @@ img{
     width: 11rem;
     height: 1.5625rem;
     margin-right: 0.625rem;
+    margin-left: 10px;
 }
 
 .six{
@@ -302,91 +305,48 @@ img{
     font-size: 0.75rem;
     
 }
-.five{
-    position: relative;
-    z-index: 1;
-    right: 40px;
-}
-.six{
-    position: relative;
-    z-index: 1;
-    right: 36px;
-}
+
 
 .last{
     display: flex;
+    margin-top: 60px;
     
 }
 .second{
     display: flex;
+    margin-top: 60px;
+    margin-inline: 20px;
 }
 .first{
     display: flex;
+    margin-top: 60px;
+    
     
 }
-
-/* .img{
-    width: 1.25rem;
-    height: 1.25rem;
-    position: absolute;
-    z-index: 1;
-    left: 15.25rem;
-    bottom: -22.6875rem;
-}
-.img2{
-    width: 1.25rem;
-    height: 1.25rem;
-    position: absolute;
-    z-index: 1;
-    left: 27.5rem;
-    bottom: -22.6875rem;  
-}
-.img3{
-    width: 1.25rem;
-    height: 1.25rem;
-    position: absolute;
-    z-index: 1;
-    left: 41.875rem;
-    bottom: -22.6875rem;  
-}
-.img4{
-    width: 1.25rem;
-    height: 1.25rem;
-    position: absolute;
-    z-index: 1;
-    left: 52.5rem;
-    bottom: -22.6875rem;  
-}
-.img5{
-    width: 1.25rem;
-    height: 1.25rem;
-    position: absolute;
-    z-index: 1;
-    right: 18.75rem;
-    bottom: -22.6875rem;  
-}
-.img6{
-    width: 1.25rem;
-    height: 1.25rem;
-    position: absolute;
-    z-index: 1;
-    right: 6.75rem;
-    bottom: -22.6875rem;  
-} */
-
-
-
 
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 1200px) {
-     .logo {
-        margin-left: 0;
-        margin-top: 1rem;
+    .logo{
+        margin-left: 3.25rem;
     }
     .navbar-toggle {
         margin-left: 5rem;
     }
+    .phase2{
+        display: block;
+        /* margin-top: 3.4375rem; */
+        margin-left: 6.875rem;
+        margin-right: 5rem;
+    }
+    .phase3{
+        display: grid;
+        grid-template-columns: 1fr  ;
+        gap: 90px;
+        
+
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
