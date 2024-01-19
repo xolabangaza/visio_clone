@@ -196,26 +196,72 @@ img{
 }
 .one{
     background-color: #244ac2;
-    width: 10.625rem;
+    width: 10.760rem;
     height: 1.5625rem;
-    margin-inline: 0.5rem;
+    margin-inline: 9.6px;
+    margin-left: 18px;
 
 }
 
 .span{
     color: #2a80d1;
+    margin-left: 150px;
+    position: relative;
+    z-index: 1;
+    bottom: 28px;
+
+}
+.span2{
+    color: #2a80d1;
+    margin-left: 150px;
+    position: relative;
+    z-index: 1;
+    bottom: 28px;
+
+}
+.span3{
+    color: #2a80d1;
+    margin-left: 172px;
+    position: relative;
+    z-index: 1;
+    bottom: 28px;
+
+}
+.span4{
+    color: #2a80d1;
+    margin-left: 130px;
+    position: relative;
+    z-index: 1;
+    bottom: 28px;
+
+}
+.span5{
+    color: #2a80d1;
+    margin-left: 140px;
+    position: relative;
+    z-index: 1;
+    bottom: 28px;
+
+}
+.span6{
+    color: #2a80d1;
+    margin-left: 140px;
+    position: relative;
+    z-index: 1;
+    bottom: 28px;
+
 }
 
 .two{
     background-color: #244ac2;
-    width: 10rem;
-    height: 1.5625rem;
-    margin-right: 2.25rem;
+    width: 11.2rem;
+    height: 1.625rem;
+    margin-right: 14px;
 }
 
 .three{
     background-color: #244ac2;
-    width: 11.25rem;
+    width: 12.25rem;
     height: 1.5625rem;
     margin-right: 0.625rem;
     
@@ -223,24 +269,24 @@ img{
 
 .four{
     background-color: #244ac2;
-    width: 8.125rem;
+    width: 9.5625rem;
     height: 1.5625rem;
-    margin-right: 0.625rem;
+    margin-right: 3.625rem;
 }
 
 .five{
     background-color: #244ac2;
-    width: 10rem;
+    width: 11rem;
     height: 1.5625rem;
     margin-right: 0.625rem;
 }
 
 .six{
     background-color: #244ac2;
-    width: 10rem;
+    width: 10.5rem;
     height: 1.5625rem;
     margin-right: 0.625rem;
-    margin-bottom: 0.625rem;
+    margin-bottom: 10.625rem;
 }
 .phase4, p{
     margin-inline: 1.25rem;
@@ -256,7 +302,30 @@ img{
     font-size: 0.75rem;
     
 }
-.img{
+.five{
+    position: relative;
+    z-index: 1;
+    right: 40px;
+}
+.six{
+    position: relative;
+    z-index: 1;
+    right: 36px;
+}
+
+.last{
+    display: flex;
+    
+}
+.second{
+    display: flex;
+}
+.first{
+    display: flex;
+    
+}
+
+/* .img{
     width: 1.25rem;
     height: 1.25rem;
     position: absolute;
@@ -303,7 +372,7 @@ img{
     z-index: 1;
     right: 6.75rem;
     bottom: -22.6875rem;  
-}
+} */
 
 
 
