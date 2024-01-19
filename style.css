@@ -196,14 +196,7 @@ img{
     object-fit: cover; 
     
 }
-.one{
-    background-color: #244ac2;
-    width: 10.760rem;
-    height: 1.5625rem;
-    margin-inline: 9.6px;
-    margin-left: 18px;
 
-}
 
 .span{
     color: #2a80d1;
@@ -215,10 +208,10 @@ img{
 }
 .span2{
     color: #2a80d1;
-    margin-left: 155px;
+    left: 126px;
     position: relative;
     z-index: 1;
-    bottom: 29px;
+    bottom: 27px;
 
 }
 .span3{
@@ -253,12 +246,20 @@ img{
     bottom: 29px;
 
 }
+.one{
+    background-color: #244ac2;
+    width: 11rem;
+    height: 1.5625rem;
+    margin-inline: 9.6px;
+    margin-left: 1px;
+
+}
 
 .two{
     background-color: #244ac2;
-    width: 11.2rem;
+    width: 10.9rem;
     height: 1.625rem;
-    margin-right: 14px;
+    /* margin-right: 2px; */
 }
 
 .three{
@@ -271,25 +272,25 @@ img{
 
 .four{
     background-color: #244ac2;
-    width: 9.5625rem;
+    width: 12.5625rem;
     height: 1.5625rem;
     margin-right: 3.625rem;
 }
 
 .five{
     background-color: #244ac2;
-    width: 11rem;
+    width: 12.5rem;
     height: 1.5625rem;
     margin-right: 0.625rem;
-    margin-left: 10px;
+  
 }
 
 .six{
     background-color: #244ac2;
-    width: 10.5rem;
+    width: 15.5rem;
     height: 1.5625rem;
     margin-right: 0.625rem;
-    margin-bottom: 10.625rem;
+    /* margin-bottom: 10.625rem; */
 }
 .phase4, p{
     margin-inline: 1.25rem;
