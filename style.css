@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-toggle {
+    cursor: pointer;
+    margin-right: 7.5rem;
+    margin-block: auto;
+}
+
+.bar {
+    display: flex;
+    width: 1.375rem;
+    height: 0.125rem;
+    background-color: #807c7c;
+    margin: 0.3125rem 0;
+}
+.logo{
+    margin-left: 6.25rem;
+}
+
+/* START OF SLIDER */
+
+ .slider-container {
+    position: relative;
+    overflow: hidden;
+    width: 88%;
+    height: 70vh;
+    margin: auto;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+
+.slider-btn {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    left: 94%;
+    top: 55%;
+    transform: translateY(-50%);
+    font-size: 6.125rem;
+    font-weight: lighter;
+    cursor: pointer;
+    color: gray;
+    font-weight: lighter;
+    
+}
+
+.blue {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #244ac2;
+    height: 3.75rem;
+    width: 25rem;
+    font-size: 1rem;
+}
+
+.black {
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    right: 0.125rem;
+    transform: translateY(-50%);
+    background: #000000;
+    height: 3.75rem;
+    width: 5.125rem;
+}
+
+.blue p{
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1.1875rem;
+    font-weight: 600;
+}
+
+
+.next-btn {
+    right: 7.5rem;
+    font-weight: lighter;
+}
+
+.dot-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    bottom: 4%;
+    right: 10px;
+}
+
+.dot {
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.dot.active {
+    border: 2px solid white;
+}
+
+/* END OF SLIDER */
+
+/* START OF THE SECOND PART */
+.phase2{
+    display: flex;
+    margin-top: 3.4375rem;
+    margin-left: 6.875rem;
+    margin-right: 5rem;
+    
+}
+.phase2,p{
+    font-family: 'Open Sans', sans-serif;
+}
+.pic{
+    margin-left: 25rem;
+    
+    
+}
+/* END OF THE SECOND PART */
+
+/* START OF THE LAST PART */
+
+.phase3{
+    margin-inline: 6.25rem;
+    margin-top: 2.5rem;
+    display: flex;
+    color: white;
+    text-align: start;
+    font-size: 0.625rem;
+      
+    
+    
+}
+.visio{
+    background-color: #061c2c;
+    width: 22.5rem;
+    height: 12.5rem;
+    
+    
+}
+.visio2{
+    background-color: #061c2c;
+    width: 22.5rem;
+    height: 12.5rem;
+    margin-left: 1.25rem;
+}
+.visio3{
+    background-color: #061c2c;
+    width: 22.5rem;
+    height: 12.5rem;
+    margin-left: 1.25rem;
+}
+span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.625rem;
+    text-align: left;
+    line-height: 2.0625rem;
+    margin-left: 20px;
+    font-weight: bold;
+    
+
+}
+img{
+    height: 3.75rem;
+    margin-top: 1.875rem;
+}
+
+.photo {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    
+}
+.one{
+    background-color: #244ac2;
+    width: 10.625rem;
+    height: 1.5625rem;
+    margin-inline: 0.5rem;
+
+}
+
+.span{
+    color: #2a80d1;
+}
+
+.two{
+    background-color: #244ac2;
+    width: 10rem;
+    height: 1.5625rem;
+    margin-right: 2.25rem;
+}
+
+.three{
+    background-color: #244ac2;
+    width: 11.25rem;
+    height: 1.5625rem;
+    margin-right: 0.625rem;
+    
+}
+
+.four{
+    background-color: #244ac2;
+    width: 8.125rem;
+    height: 1.5625rem;
+    margin-right: 0.625rem;
+}
+
+.five{
+    background-color: #244ac2;
+    width: 10rem;
+    height: 1.5625rem;
+    margin-right: 0.625rem;
+}
+
+.six{
+    background-color: #244ac2;
+    width: 10rem;
+    height: 1.5625rem;
+    margin-right: 0.625rem;
+    margin-bottom: 0.625rem;
+}
+.phase4, p{
+    margin-inline: 1.25rem;
+    margin-block: 0.25rem;
+}
+
+.phase4{
+    display: flex;
+    margin-top: 1.875rem;
+    margin-inline: 5rem;
+    justify-content: space-around;
+    color: white;
+    font-size: 0.75rem;
+    
+}
+.img{
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    z-index: 1;
+    left: 15.25rem;
+    bottom: -22.6875rem;
+}
+.img2{
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    z-index: 1;
+    left: 27.5rem;
+    bottom: -22.6875rem;  
+}
+.img3{
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    z-index: 1;
+    left: 41.875rem;
+    bottom: -22.6875rem;  
+}
+.img4{
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    z-index: 1;
+    left: 52.5rem;
+    bottom: -22.6875rem;  
+}
+.img5{
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    z-index: 1;
+    right: 18.75rem;
+    bottom: -22.6875rem;  
+}
+.img6{
+    width: 1.25rem;
+    height: 1.25rem;
+    position: absolute;
+    z-index: 1;
+    right: 6.75rem;
+    bottom: -22.6875rem;  
+}
+
+
+
+
+/* RESPONSIVENESS */
+
+@media only screen and (max-width: 1200px) {
+     .logo {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .navbar-toggle {
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+     .slider-btn {
+        font-size: 2.5rem;
+        top: 33%;
+        margin-right: 200px;
+    }
+    .blue{
+        width: 40%;
+        font-size: 10px;
+        top: 35%;
+    }
+    .black{
+        width: 6%;
+        top: 35%;
+    }
+    .dot-container{
+        top: 47%;
+    }
+    .slider-container {
+        margin-bottom: 0;
+    }
+}
