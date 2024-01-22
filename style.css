@@ -349,16 +349,27 @@ img{
     }
     .pic{
         margin: 0;
+        
     }
+    .text{
+        text-align: center;
+    }
+    .phase4, p{
+        margin-block: 0;
+        margin-inline: 0;
+    }
+    
     .phase3{
         display: grid;
         grid-template-columns: 1fr  ;
         gap: 90px;  
+        justify-content: center;
 
     }
     .visio3,.visio2{
         margin-left: 0;
         width: 18rem;
+        
         
     }
     .visio{
