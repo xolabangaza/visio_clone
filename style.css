@@ -343,9 +343,9 @@ img{
     }
     .phase2{
         display: block;
-        /* margin-top: 3.4375rem; */
-        /* margin-left: 6.875rem;
-        margin-right: 5rem; */
+        margin-top: 3.4375rem;
+        margin-left: 6.875rem;
+        margin-right: 5rem;
     }
     .pic{
         margin: 0;
@@ -368,13 +368,20 @@ img{
     }
     .visio3,.visio2{
         margin-left: 0;
-        width: 18rem;
+        margin-top: 40px;
         
-        
+         
     }
-    .visio{
-        width: 18rem;
+    .first,.second,.last{
+        display: block;
     }
+    .one,.two,.three,.four,.five,.six{
+        width: 360px;
+        height: 40px;
+        margin-block: 10px;
+      
+    }
+    
 
     
 }
