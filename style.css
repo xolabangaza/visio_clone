@@ -369,17 +369,30 @@ img{
     .visio3,.visio2{
         margin-left: 0;
         margin-top: 40px;
+        width: 340px;
         
          
+    }
+    .visio{
+        width: 340px;
     }
     .first,.second,.last{
         display: block;
     }
     .one,.two,.three,.four,.five,.six{
-        width: 360px;
+        width: 340px;
         height: 40px;
         margin-block: 10px;
+        font-size: 16px;
       
+    }
+    .four{
+      position: relative;
+      left: -8px;
+    }
+    .six{
+        position: relative;
+        left: 2px;  
     }
     
 
