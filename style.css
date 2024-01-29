@@ -337,11 +337,17 @@ img{
     .navbar-toggle {
         margin-left: 5rem;
     }
-    .phase2{
+    /* .phase2{
         display: block;
-        /* margin-top: 1.4375rem; */
         margin-left: 6.875rem;
         margin-right: 6rem;
+    } */
+
+    .phase2 {
+        display: block;
+        margin-top: 0; 
+        margin-left: 4rem;
+        margin-right: 4rem;
     }
     .pic,img{
         margin-right: 4rem;
