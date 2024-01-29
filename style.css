@@ -339,12 +339,12 @@ img{
     }
     .phase2{
         display: block;
-        margin-top: 3.4375rem;
+        /* margin-top: 1.4375rem; */
         margin-left: 6.875rem;
-        margin-right: 5rem;
+        margin-right: 6rem;
     }
-    .pic{
-        margin: 0;
+    .pic,img{
+        margin-right: 4rem;
         
     }
     .text{
@@ -407,11 +407,12 @@ img{
         top: 35%;
     }
     .black{
-        width: 6%;
-        top: 35%;
+        display: none;
+        /* width: 6%;
+        top: 35%; */
     }
     .dot-container{
-        top: 47%;
+        top: 45%;
     }
     .slider-container {
         margin-bottom: 0;
