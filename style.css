@@ -127,24 +127,20 @@
 .phase2{
     display: flex;
     margin-top: 3.4375rem;
-    margin-left: 4.885rem;
-    margin-right: 6.5rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
     
 }
 .phase2,p{
     font-family: 'Open Sans', sans-serif;
 }
-.pic{
-    margin-left: 25rem;
-    
-    
-}
+
 /* END OF THE SECOND PART */
 
 /* START OF THE LAST PART */
 
 .phase3{
-    margin-inline: 6.25rem;
+    margin-inline: 5.25rem;
     margin-top: 2.5rem;
     display: flex;
     color: white;
@@ -156,21 +152,21 @@
 }
 .visio{
     background-color: #061c2c;
-    width: 22.5rem;
+    width: 23.5rem;
     height: 12.5rem; 
     
     
 }
 .visio2{
     background-color: #061c2c;
-    width: 22.5rem;
+    width: 24rem;
     height: 12.5rem;
     margin-left: 1.25rem;
     
 }
 .visio3{
     background-color: #061c2c;
-    width: 22.5rem;
+    width: 24rem;
     height: 12.5rem;
     margin-left: 1.25rem;
     
@@ -257,7 +253,7 @@ img{
 
 .two{
     background-color: #244ac2;
-    width: 170.4px;
+    width: 185.9px;
     height: 1.625rem;
     /* margin-right: 2px; */
 }
@@ -283,7 +279,7 @@ img{
 
 .five{
     background-color: #244ac2;
-    width: 170px;
+    width: 180px;
     height: 1.5625rem;
     margin-right: 0.625rem;
   
@@ -291,7 +287,7 @@ img{
 
 .six{
     background-color: #244ac2;
-    width: 170px;
+    width: 182px;
     height: 1.5625rem;
     position: relative;
     right: -10px;
