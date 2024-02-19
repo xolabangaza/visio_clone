@@ -432,6 +432,63 @@ img{
 
     
 }
+
+@media only screen and (min-width: 601px) {
+    .navbar-toggle {
+        margin-right: 2rem;
+    }
+
+    .blue{
+        width: 40%;
+        font-size: 10px;
+        top: 35%;
+    }
+    .black{
+        display: flex;
+        width: 6%;
+        top: 35%;
+    }
+
+    .phase2 {
+        display: block;
+        margin-top: 1rem; 
+        margin-left: 0rem;
+        /* margin-right: 4rem; */
+    }
+
+    .phase3{
+       margin-left: 0;
+          
+        
+        
+    }
+    .visio{
+        background-color: #061c2c;
+        width: 15.5rem;
+        height: 10.5rem; 
+        
+        
+    }
+    .visio2{
+        background-color: #061c2c;
+        width: 15.5rem;
+        height: 10.5rem; 
+        
+        
+    }
+    .visio3{
+        background-color: #061c2c;
+        width: 15.5rem;
+        height: 10.5rem; 
+        
+        
+    }
+    .phase4, p{
+        margin-block: 0;
+        margin-inline: 20px;
+    }
+    
+}
 /* 
 @media only screen and (max-width: 768px) {
      .slider-btn {
