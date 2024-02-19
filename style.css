@@ -128,11 +128,15 @@
     display: flex;
     margin-top: 3.4375rem;
     margin-left: 4rem;
-    margin-right: 4rem;
+    /* margin-right: 4rem; */
     
 }
 .phase2,p{
     font-family: 'Open Sans', sans-serif;
+    /* margin-right: 3rem; */
+}
+.pic{
+    margin-right: 4rem;
 }
 
 /* END OF THE SECOND PART */
@@ -330,12 +334,35 @@ img{
 
 /* RESPONSIVENESS */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
     .logo{
         margin-left: 1rem;
     }
     .navbar-toggle {
         margin-left: 5rem;
+    }
+
+    .slider-btn {
+        font-size: 2.5rem;
+        top: 70%;
+        left: 90%;
+        font-weight: 700;
+    }
+    .blue{
+        width: 40%;
+        font-size: 10px;
+        top: 35%;
+    }
+    .black{
+        display: flex;
+        width: 6%;
+        top: 35%;
+    }
+    .dot-container{
+        top: 86%;
+    }
+    .slider-container {
+        margin-bottom: 0;
     }
     /* .phase2{
         display: block;
@@ -347,12 +374,13 @@ img{
         display: block;
         margin-top: 1rem; 
         margin-left: 0rem;
-        margin-right: 4rem;
+        /* margin-right: 4rem; */
     }
-    .pic,img{
+    
+    /* .pic,img{
         margin-right: 4rem;
         
-    }
+    } */
     .text{
         text-align: left;
     }
@@ -366,23 +394,27 @@ img{
         grid-template-columns: 1fr  ;
         gap: 90px;  
         justify-content: center;
+        /* background-color: #d62e2e;
+        width: 296px; */
+        
+        
 
     }
     .visio3,.visio2{
         margin-left: 0;
         margin-top: 40px;
-        width: 340px;
+        width: 296px;
         
          
     }
     .visio{
-        width: 340px;
+        width: 296px;
     }
     .first,.second,.last{
         display: block;
     }
     .one,.two,.three,.four,.five,.six{
-        width: 340px;
+        width: 296px;
         height: 40px;
         margin-block: 10px;
         font-size: 16px;
@@ -390,17 +422,17 @@ img{
     }
     .four{
       position: relative;
-      left: -8px;
+      left: -10px;
     }
     .six{
         position: relative;
-        left: 2px;  
+        left:0px;  
     }
     
 
     
 }
-
+/* 
 @media only screen and (max-width: 768px) {
      .slider-btn {
         font-size: 2.5rem;
@@ -423,4 +455,4 @@ img{
     .slider-container {
         margin-bottom: 0;
     }
-}
+} */
