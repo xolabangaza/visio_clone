@@ -32,7 +32,7 @@
     position: relative;
     overflow: hidden;
     width: 88%;
-    height: 70vh;
+    /* min-height: 30vh; */
     margin: auto;
 }
 
@@ -66,7 +66,7 @@
     font-family: 'Open Sans', sans-serif;
     position: absolute;
     z-index: 1;
-    top: 50%;
+    top: 73%;
     transform: translateY(-50%);
     background: #244ac2;
     height: 3.75rem;
@@ -76,7 +76,7 @@
 
 .black {
     position: absolute;
-    top: 50%;
+    top: 73%;
     z-index: 1;
     right: 0.125rem;
     transform: translateY(-50%);
@@ -86,7 +86,7 @@
 }
 
 .blue p{
-    text-align: center;
+    text-align:left;
     color: #FFFFFF;
     margin-top: 1.1875rem;
     font-weight: 600;
@@ -103,7 +103,7 @@
     justify-content: center;
     position: absolute;
     z-index: 1;
-    bottom: 4%;
+    top: 90%;
     right: 10px;
 }
 
@@ -196,7 +196,7 @@ img{
 
 .span{
     color: #2a80d1;
-    left: 128px;
+    left: 250px;
     position: relative;
     z-index: 1;
     bottom: 26px;
@@ -204,7 +204,7 @@ img{
 }
 .span2{
     color: #2a80d1;
-    left: 129px;
+    left: 250px;
     position: relative;
     z-index: 1;
     bottom: 26px;
@@ -212,7 +212,7 @@ img{
 }
 .span3{
     color: #2a80d1;
-    left: 145px;
+    left: 250px;
     position: relative;
     z-index: 1;
     bottom: 26px;
@@ -220,7 +220,7 @@ img{
 }
 .span4{
     color: #2a80d1;
-    left: 110px;
+    left: 250px;
     position: relative;
     z-index: 1;
     bottom: 26px;
@@ -228,7 +228,7 @@ img{
 }
 .span5{
     color: #2a80d1;
-    right: -128px;
+    right: -250px;
     position: relative;
     z-index: 1;
     bottom: 26px;
@@ -236,7 +236,7 @@ img{
 }
 .span6{
     color: #2a80d1;
-    margin-left: 148px;
+    right: -248px;
     position: relative;
     z-index: 1;
     bottom: 26px;
@@ -330,9 +330,9 @@ img{
 
 /* RESPONSIVENESS */
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 576px) {
     .logo{
-        margin-left: 3.25rem;
+        margin-left: 1rem;
     }
     .navbar-toggle {
         margin-left: 5rem;
@@ -345,8 +345,8 @@ img{
 
     .phase2 {
         display: block;
-        margin-top: 0; 
-        margin-left: 4rem;
+        margin-top: 1rem; 
+        margin-left: 0rem;
         margin-right: 4rem;
     }
     .pic,img{
@@ -354,11 +354,11 @@ img{
         
     }
     .text{
-        text-align: center;
+        text-align: left;
     }
     .phase4, p{
         margin-block: 0;
-        margin-inline: 0;
+        margin-inline: 20px;
     }
     
     .phase3{
@@ -413,9 +413,9 @@ img{
         top: 35%;
     }
     .black{
-        display: none;
-        /* width: 6%;
-        top: 35%; */
+        display: flex;
+        width: 6%;
+        top: 35%;
     }
     .dot-container{
         top: 45%;
